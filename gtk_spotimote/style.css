@@ -1,0 +1,30 @@
+.root-object {
+    margin: 64px;
+}
+
+.main-container {}
+
+.controls-play-pause {
+    border-radius: 100%;
+    padding: 16px;
+
+}
+
+.controls-skip-buttons {
+    border-radius: 100%;
+}
+
+.track-name-label {
+    font-weight: bold;
+}
+
+.track-image {
+    min-width: 200px;
+    min-height: 200px;
+    border-radius: 16px;
+}
+
+.track-image-container {
+    margin: 32px;
+    margin-top: 0px;
+}

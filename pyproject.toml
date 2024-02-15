@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "gtk-spotimote"
+version = "0.1.0"
+description = ""
+authors = ["Hary Pirajan Mahalingam <hary2309@gmail.com>"]
+readme = "README.md"
+packages = [{include = "gtk_spotimote"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+spotipy = "^2.23.0"
+pycairo = "^1.26.0"
+pygobject = "^3.46.0"
+pygobject-stubs = "^2.10.0"
+
+[tool.poetry.scripts]
+start = "gtk_spotimote:main"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
