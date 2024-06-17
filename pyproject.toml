@@ -15,6 +15,7 @@ pygobject-stubs = "^2.10.0"
 
 [tool.poetry.scripts]
 start = "gtk_spotimote:main"
+setup = "setup:main"
 
 [build-system]
 requires = ["poetry-core"]
